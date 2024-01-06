@@ -207,6 +207,24 @@ line-height: 28px;
 /* footer style */
 footer{
     display: flex;
+    gap:100px;
     background: #FFF8F3;
     padding: 130px 200px;
+}
+.social-links a{
+    margin-right: 25px;;
+}
+.footer-colam{
+    width: 50%;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    border:0px;
+    border-radius: 5px;
+    width:75%;
+    display:block;
+    margin-bottom:20px;
+    padding:18px 35px;
+    font-size: 16px;
+    color:#757575;
+    background-color:#fff;
 }
